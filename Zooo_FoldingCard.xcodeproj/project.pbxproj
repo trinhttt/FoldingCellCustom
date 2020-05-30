@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EB79FB024815BCA00E3E36F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB79FAF24815BCA00E3E36F /* AppDelegate.swift */; };
+		0EB79FB224815BCA00E3E36F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB79FB124815BCA00E3E36F /* SceneDelegate.swift */; };
+		0EB79FB424815BCA00E3E36F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB79FB324815BCA00E3E36F /* ViewController.swift */; };
+		0EB79FB724815BCA00E3E36F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EB79FB524815BCA00E3E36F /* Main.storyboard */; };
+		0EB79FB924815BCF00E3E36F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EB79FB824815BCF00E3E36F /* Assets.xcassets */; };
+		0EB79FBC24815BCF00E3E36F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EB79FBA24815BCF00E3E36F /* LaunchScreen.storyboard */; };
+		0EB79FC424815C0F00E3E36F /* DemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB79FC324815C0F00E3E36F /* DemoCell.swift */; };
+		0EB79FC624815C2800E3E36F /* FoldingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB79FC524815C2800E3E36F /* FoldingCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0EB79FAC24815BCA00E3E36F /* Zooo_FoldingCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zooo_FoldingCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EB79FAF24815BCA00E3E36F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0EB79FB124815BCA00E3E36F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0EB79FB324815BCA00E3E36F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0EB79FB624815BCA00E3E36F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0EB79FB824815BCF00E3E36F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0EB79FBB24815BCF00E3E36F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0EB79FBD24815BCF00E3E36F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EB79FC324815C0F00E3E36F /* DemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoCell.swift; sourceTree = "<group>"; };
+		0EB79FC524815C2800E3E36F /* FoldingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoldingCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EB79FA924815BCA00E3E36F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EB79FA324815BCA00E3E36F = {
+			isa = PBXGroup;
+			children = (
+				0EB79FAE24815BCA00E3E36F /* Zooo_FoldingCard */,
+				0EB79FAD24815BCA00E3E36F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0EB79FAD24815BCA00E3E36F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EB79FAC24815BCA00E3E36F /* Zooo_FoldingCard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EB79FAE24815BCA00E3E36F /* Zooo_FoldingCard */ = {
+			isa = PBXGroup;
+			children = (
+				0EB79FAF24815BCA00E3E36F /* AppDelegate.swift */,
+				0EB79FB124815BCA00E3E36F /* SceneDelegate.swift */,
+				0EB79FB324815BCA00E3E36F /* ViewController.swift */,
+				0EB79FB524815BCA00E3E36F /* Main.storyboard */,
+				0EB79FB824815BCF00E3E36F /* Assets.xcassets */,
+				0EB79FBA24815BCF00E3E36F /* LaunchScreen.storyboard */,
+				0EB79FBD24815BCF00E3E36F /* Info.plist */,
+				0EB79FC324815C0F00E3E36F /* DemoCell.swift */,
+				0EB79FC524815C2800E3E36F /* FoldingCell.swift */,
+			);
+			path = Zooo_FoldingCard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EB79FAB24815BCA00E3E36F /* Zooo_FoldingCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EB79FC024815BCF00E3E36F /* Build configuration list for PBXNativeTarget "Zooo_FoldingCard" */;
+			buildPhases = (
+				0EB79FA824815BCA00E3E36F /* Sources */,
+				0EB79FA924815BCA00E3E36F /* Frameworks */,
+				0EB79FAA24815BCA00E3E36F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zooo_FoldingCard;
+			productName = Zooo_FoldingCard;
+			productReference = 0EB79FAC24815BCA00E3E36F /* Zooo_FoldingCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EB79FA424815BCA00E3E36F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Trinh Thai";
+				TargetAttributes = {
+					0EB79FAB24815BCA00E3E36F = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 0EB79FA724815BCA00E3E36F /* Build configuration list for PBXProject "Zooo_FoldingCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0EB79FA324815BCA00E3E36F;
+			productRefGroup = 0EB79FAD24815BCA00E3E36F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EB79FAB24815BCA00E3E36F /* Zooo_FoldingCard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EB79FAA24815BCA00E3E36F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EB79FBC24815BCF00E3E36F /* LaunchScreen.storyboard in Resources */,
+				0EB79FB924815BCF00E3E36F /* Assets.xcassets in Resources */,
+				0EB79FB724815BCA00E3E36F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EB79FA824815BCA00E3E36F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EB79FB424815BCA00E3E36F /* ViewController.swift in Sources */,
+				0EB79FC624815C2800E3E36F /* FoldingCell.swift in Sources */,
+				0EB79FB024815BCA00E3E36F /* AppDelegate.swift in Sources */,
+				0EB79FC424815C0F00E3E36F /* DemoCell.swift in Sources */,
+				0EB79FB224815BCA00E3E36F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0EB79FB524815BCA00E3E36F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EB79FB624815BCA00E3E36F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0EB79FBA24815BCF00E3E36F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EB79FBB24815BCF00E3E36F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0EB79FBE24815BCF00E3E36F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0EB79FBF24815BCF00E3E36F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0EB79FC124815BCF00E3E36F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Zooo_FoldingCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TrinhThai.Zooo-FoldingCard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0EB79FC224815BCF00E3E36F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Zooo_FoldingCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TrinhThai.Zooo-FoldingCard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EB79FA724815BCA00E3E36F /* Build configuration list for PBXProject "Zooo_FoldingCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EB79FBE24815BCF00E3E36F /* Debug */,
+				0EB79FBF24815BCF00E3E36F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EB79FC024815BCF00E3E36F /* Build configuration list for PBXNativeTarget "Zooo_FoldingCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EB79FC124815BCF00E3E36F /* Debug */,
+				0EB79FC224815BCF00E3E36F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0EB79FA424815BCA00E3E36F /* Project object */;
+}
