@@ -46,8 +46,8 @@
             filePath = "Zooo_FoldingCard/FoldingCell.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "382"
-            endingLineNumber = "382"
+            startingLineNumber = "384"
+            endingLineNumber = "384"
             landmarkName = "closeAnimation(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -62,8 +62,8 @@
             filePath = "Zooo_FoldingCard/FoldingCell.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "381"
-            endingLineNumber = "381"
+            startingLineNumber = "383"
+            endingLineNumber = "383"
             landmarkName = "closeAnimation(_:)"
             landmarkType = "7">
             <Locations>
@@ -110,8 +110,8 @@
             filePath = "Zooo_FoldingCard/FoldingCell.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "391"
-            endingLineNumber = "391"
+            startingLineNumber = "393"
+            endingLineNumber = "393"
             landmarkName = "closeAnimation(_:)"
             landmarkType = "7">
          </BreakpointContent>

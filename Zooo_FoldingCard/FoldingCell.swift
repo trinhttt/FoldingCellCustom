@@ -28,13 +28,15 @@ open class FoldingCell: UITableViewCell {
     
     @objc open var isUnfolded = false
     
+    /// UIView whitch display when cell close
+    @IBOutlet open var foregroundView: RotatedView!
+    @IBOutlet open var foregroundViewTop: NSLayoutConstraint!
+    
     /// UIView is displayed when cell open
     @IBOutlet open var containerView: UIView!
     @IBOutlet open var containerViewTop: NSLayoutConstraint!
     
-    /// UIView whitch display when cell close
-    @IBOutlet open var foregroundView: RotatedView!
-    @IBOutlet open var foregroundViewTop: NSLayoutConstraint!
+
     var animationView: UIView?
     
     ///  the number of folding elements. Default 2

@@ -30,6 +30,8 @@ class ViewController: UIViewController {
     
     // MARK: Helpers
     private func setup() {
+        let nib = UINib(nibName: "FoldingCardTableViewCell",bundle: nil)
+        tableView.register(nib, forCellReuseIdentifier: "FoldingCell")
         cellHeights = Array(repeating: Const.closeCellHeight, count: Const.rowsCount)
         tableView.estimatedRowHeight = Const.closeCellHeight
         tableView.rowHeight = UITableView.automaticDimension
@@ -61,7 +63,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-        guard case let cell as DemoCell = cell else {
+        guard case let cell as FoldingCardTableViewCell = cell else {
             return
         }
         
@@ -73,12 +75,12 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
             cell.unfold(true, animated: false, completion: nil)
         }
         
-        cell.number = indexPath.row
+//        cell.number = indexPath.row
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "FoldingCell", for: indexPath) as! FoldingCell
-        let durations: [TimeInterval] = [0.26, 0.2, 0.2]
+        let durations: [TimeInterval] = [0.26, 0.2, 0.2, 0.2, 0.2, 0.2,  0.2, 0.2, 0.2, 0.2]
         
         cell.durationsForExpandedState = durations
         cell.durationsForCollapsedState = durations
@@ -106,7 +108,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         } else {
             cellHeights[indexPath.row] = Const.closeCellHeight
             cell.unfold(false, animated: true, completion: nil)
-            duration = 3.0
+            duration = 2.8
         }
         
 //        UIView.animate(withDuration: duration, delay: 0, options: .curveEaseOut, animations: { () -> Void in
