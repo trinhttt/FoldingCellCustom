@@ -15,9 +15,9 @@ class ViewController: UIViewController {
     enum Const {
         static let closeCellHeight: CGFloat = 157
         //        static let openCellHeight: CGFloat = 488
-        static let openCellHeight: [CGFloat] = [1657, 1657, 1657, 1657, 1657]
+        static let openCellHeight: [CGFloat] = [1657, 1657, 1657, 1657, 1657, 1657, 1657, 1657, 1657, 1657]
         
-        static let rowsCount = 5
+        static let rowsCount = 10
     }
     
     var cellHeights: [CGFloat] = []
@@ -102,21 +102,44 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         if cellIsCollapsed {
             cellHeights[indexPath.row] = Const.openCellHeight[indexPath.row]//Const.openCellHeight
             cell.unfold(true, animated: true, completion: nil)
-            duration = 0.6
+            duration = 0.8
         } else {
             cellHeights[indexPath.row] = Const.closeCellHeight
             cell.unfold(false, animated: true, completion: nil)
-            duration = 2.6
+            duration = 3.0
         }
         
-        UIView.animate(withDuration: duration, delay: 0, options: .curveEaseOut, animations: { () -> Void in
+//        UIView.animate(withDuration: duration, delay: 0, options: .curveEaseOut, animations: { () -> Void in
+//            tableView.beginUpdates()
+//            tableView.endUpdates()
+
+            // fix https://github.com/Ramotion/folding-cell/issues/169
+//            if cell.frame.maxY > tableView.frame.maxY {
+//                tableView.scrollToRow(at: indexPath, at: UITableView.ScrollPosition.top, animated: true)
+//            }
+
+//        }, completion: nil)
+        
+        if cell.frame.maxY > tableView.frame.maxY {
+            if !cellIsCollapsed {
+                tableView.scrollToRow(at: indexPath, at: UITableView.ScrollPosition.top, animated: false)
+                 UIView.animate(withDuration: duration, delay: 0, options: .curveEaseOut, animations: { () -> Void in
+                tableView.beginUpdates()
+                tableView.endUpdates()
+                     }, completion: nil)
+            } else {
+                UIView.animate(withDuration: duration, delay: 0, options: .curveEaseOut, animations: { () -> Void in
+
+                tableView.beginUpdates()
+                tableView.endUpdates()
+                    }, completion: nil)
+                tableView.scrollToRow(at: indexPath, at: UITableView.ScrollPosition.top, animated: false)
+            }
+        } else {
+            UIView.animate(withDuration: duration, delay: 0, options: .curveEaseOut, animations: { () -> Void in
             tableView.beginUpdates()
             tableView.endUpdates()
-            
-            // fix https://github.com/Ramotion/folding-cell/issues/169
-            if cell.frame.maxY > tableView.frame.maxY {
-                tableView.scrollToRow(at: indexPath, at: UITableView.ScrollPosition.top, animated: true)
-            }
-        }, completion: nil)
+                }, completion: nil)
+        }
     }
 }

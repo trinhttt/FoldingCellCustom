@@ -40,7 +40,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "593BA333-6A3E-4942-B18D-1CF2E915F54A"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Zooo_FoldingCard/FoldingCell.swift"
@@ -56,7 +56,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "17071C63-246B-4243-A31D-C720B7AB6A69"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Zooo_FoldingCard/FoldingCell.swift"
@@ -69,7 +69,7 @@
             <Locations>
                <Location
                   uuid = "17071C63-246B-4243-A31D-C720B7AB6A69 - c3260acf1653c5ea"
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Zooo_FoldingCard.FoldingCell.closeAnimation(Swift.Optional&lt;() -&gt; ()&gt;) -&gt; ()"
@@ -84,7 +84,7 @@
                </Location>
                <Location
                   uuid = "17071C63-246B-4243-A31D-C720B7AB6A69 - 68808f4ca74fbaf3"
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "closure #1 () -&gt; () in Zooo_FoldingCard.FoldingCell.closeAnimation(Swift.Optional&lt;() -&gt; ()&gt;) -&gt; ()"
@@ -104,7 +104,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "2B17C7D0-F9F1-4E71-A6C2-C68B3BC6BBD7"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Zooo_FoldingCard/FoldingCell.swift"
