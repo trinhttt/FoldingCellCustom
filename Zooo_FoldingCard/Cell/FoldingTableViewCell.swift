@@ -1,5 +1,5 @@
 //
-//  FoldingCardTableViewCell.swift
+//  FoldingTableViewCell.swift
 //  Zooo_FoldingCard
 //
 //  Created by Trinh Thai on 5/31/20.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FoldingCardTableViewCell: FoldingCell {
+class FoldingTableViewCell: FoldingCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -19,10 +19,5 @@ class FoldingCardTableViewCell: FoldingCell {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
-    }
-    
-    override func animationDuration(_ itemIndex: NSInteger, type _: FoldingCell.AnimationType) -> TimeInterval {
-        let durations = [0.26, 0.2, 0.2, 0.2, 0.2, 0.2,  0.2, 0.2, 0.2,  0.2, 0.2]
-        return durations[itemIndex]
     }
 }

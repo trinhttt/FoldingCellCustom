@@ -14,8 +14,8 @@
 		0EB79FB924815BCF00E3E36F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EB79FB824815BCF00E3E36F /* Assets.xcassets */; };
 		0EB79FBC24815BCF00E3E36F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EB79FBA24815BCF00E3E36F /* LaunchScreen.storyboard */; };
 		0EB79FC624815C2800E3E36F /* FoldingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB79FC524815C2800E3E36F /* FoldingCell.swift */; };
-		0EFB0840248394F800BA0279 /* FoldingCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFB083E248394F800BA0279 /* FoldingCardTableViewCell.swift */; };
-		0EFB0841248394F800BA0279 /* FoldingCardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EFB083F248394F800BA0279 /* FoldingCardTableViewCell.xib */; };
+		0EFB08452483A2E100BA0279 /* FoldingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFB08432483A2E100BA0279 /* FoldingTableViewCell.swift */; };
+		0EFB08462483A2E100BA0279 /* FoldingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EFB08442483A2E100BA0279 /* FoldingTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +28,8 @@
 		0EB79FBB24815BCF00E3E36F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0EB79FBD24815BCF00E3E36F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0EB79FC524815C2800E3E36F /* FoldingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoldingCell.swift; sourceTree = "<group>"; };
-		0EFB083E248394F800BA0279 /* FoldingCardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoldingCardTableViewCell.swift; sourceTree = "<group>"; };
-		0EFB083F248394F800BA0279 /* FoldingCardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoldingCardTableViewCell.xib; sourceTree = "<group>"; };
+		0EFB08432483A2E100BA0279 /* FoldingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoldingTableViewCell.swift; sourceTree = "<group>"; };
+		0EFB08442483A2E100BA0279 /* FoldingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoldingTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,18 +62,34 @@
 		0EB79FAE24815BCA00E3E36F /* Zooo_FoldingCard */ = {
 			isa = PBXGroup;
 			children = (
-				0EFB083E248394F800BA0279 /* FoldingCardTableViewCell.swift */,
-				0EFB083F248394F800BA0279 /* FoldingCardTableViewCell.xib */,
+				0EFB08472483B08F00BA0279 /* Controller */,
+				0EFB08422483A24F00BA0279 /* Cell */,
 				0EB79FAF24815BCA00E3E36F /* AppDelegate.swift */,
 				0EB79FB124815BCA00E3E36F /* SceneDelegate.swift */,
-				0EB79FB324815BCA00E3E36F /* ViewController.swift */,
 				0EB79FB524815BCA00E3E36F /* Main.storyboard */,
 				0EB79FB824815BCF00E3E36F /* Assets.xcassets */,
 				0EB79FBA24815BCF00E3E36F /* LaunchScreen.storyboard */,
 				0EB79FBD24815BCF00E3E36F /* Info.plist */,
-				0EB79FC524815C2800E3E36F /* FoldingCell.swift */,
 			);
 			path = Zooo_FoldingCard;
+			sourceTree = "<group>";
+		};
+		0EFB08422483A24F00BA0279 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0EB79FC524815C2800E3E36F /* FoldingCell.swift */,
+				0EFB08442483A2E100BA0279 /* FoldingTableViewCell.xib */,
+				0EFB08432483A2E100BA0279 /* FoldingTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		0EFB08472483B08F00BA0279 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0EB79FB324815BCA00E3E36F /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EB79FBC24815BCF00E3E36F /* LaunchScreen.storyboard in Resources */,
-				0EFB0841248394F800BA0279 /* FoldingCardTableViewCell.xib in Resources */,
+				0EFB08462483A2E100BA0279 /* FoldingTableViewCell.xib in Resources */,
 				0EB79FB924815BCF00E3E36F /* Assets.xcassets in Resources */,
 				0EB79FB724815BCA00E3E36F /* Main.storyboard in Resources */,
 			);
@@ -151,8 +167,8 @@
 				0EB79FB424815BCA00E3E36F /* ViewController.swift in Sources */,
 				0EB79FC624815C2800E3E36F /* FoldingCell.swift in Sources */,
 				0EB79FB024815BCA00E3E36F /* AppDelegate.swift in Sources */,
+				0EFB08452483A2E100BA0279 /* FoldingTableViewCell.swift in Sources */,
 				0EB79FB224815BCA00E3E36F /* SceneDelegate.swift in Sources */,
-				0EFB0840248394F800BA0279 /* FoldingCardTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

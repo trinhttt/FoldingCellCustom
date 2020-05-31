@@ -35,7 +35,7 @@ open class FoldingCell: UITableViewCell {
     /// UIView is displayed when cell open
     @IBOutlet open var containerView: UIView!
     @IBOutlet open var containerViewTop: NSLayoutConstraint!
-    
+    @IBOutlet open var containerViewHeight: NSLayoutConstraint!
 
     var animationView: UIView?
     
